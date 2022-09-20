@@ -6,14 +6,11 @@
 int main(int argc, char *argv[]) {
 	
 	char text;
-	int i;
 
-	printf("input a number : ");
+	printf("input a character : ");
 	scanf("%c", &text);
 	
-	i= text-'0';
-	
-	printf("the input number is : %i\n",i);
+	printf("the next input character of %c (%d) is %c (%d)\n",text, text,text+1,text+1);
 	
 	return 0;
 }
